@@ -816,7 +816,7 @@ MonoBehaviour:
       baseValue: 10
       modifiers: []
     critPower:
-      baseValue: 0
+      baseValue: 150
       modifiers: []
     critChance:
       baseValue: 0
@@ -1333,7 +1333,7 @@ MonoBehaviour:
   setup: {fileID: 11400000, guid: bc8321b94d54a48418987cd408bb367d, type: 2}
   resources:
     maxHealth:
-      baseValue: 100
+      baseValue: 10000
       modifiers: []
     healthRegen:
       baseValue: 0
