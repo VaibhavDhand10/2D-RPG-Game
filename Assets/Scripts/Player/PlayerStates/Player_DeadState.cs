@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_DeadState : PlayerState
@@ -12,5 +13,11 @@ public class Player_DeadState : PlayerState
         base.Enter();
         input.Disable();
         rb.simulated = false;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
     }
 }
